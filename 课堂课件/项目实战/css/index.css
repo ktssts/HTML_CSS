@@ -1,0 +1,74 @@
+/* header 部分开始 */
+.header {
+  height: 60px;
+  line-height: 60px;
+  padding: 0 20px;
+  /* background-color: red; */
+}
+.logo {
+  font-size: 0;
+  margin-right: 30px;
+}
+.logo img {
+  height: 60px;
+  vertical-align: middle;
+}
+.nav li {
+  float: left;
+  margin-right: 20px;
+}
+.search {
+  position: relative;
+  padding-top: 10px;
+  margin-left: 20px;
+}
+.search input {
+  border: none;
+  width: 180px;
+  border-bottom: 1px solid #000;
+}
+.keyword {
+  position: absolute;
+  left: 50%;
+  width: 120px;
+  margin-left: -70px;
+  bottom: 10px;
+  text-align: center;
+}
+.keyword span {
+  font-size: 12px;
+  background-color: #ccc;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+.icon-icon-test {
+  position: absolute;
+  right: 15px;
+  bottom: 10px;
+}
+.r-btn {
+  height: 60px;
+}
+.r-btn span {
+  margin: 0 10px;
+  font-size: 14px;
+}
+.r-btn img {
+  margin: 0 20px;
+  height: 40px;
+  vertical-align: middle;
+}
+/* header 部分结束 */
+.main {
+  background-color: blue;
+}
+.content {
+  width: 1200px;
+  margin: auto;
+  background-color: green;
+  min-height: 600px;
+}
+.footer {
+  height: 144px;
+  background-color: yellow;
+}
